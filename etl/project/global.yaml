@@ -1,0 +1,4 @@
+http.headers.authorization: '<...>'
+src.db.url: jdbc:sqlserver://172.31.4.133;database=InterfaceDB
+src.db.username: xxx
+src.db.password: xxx
