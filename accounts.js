@@ -6,7 +6,7 @@ export default async (DBConnector) => {
   await DBConnector.collection('accounts').deleteMany({});
 
   await DBConnector.collection('roles').insertOne({
-    role: 'Admin',
+    role: 'admin',
     resource: '*',
   });
 
