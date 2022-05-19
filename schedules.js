@@ -8,9 +8,8 @@ export default [
     name: 'syncData',
     cron: '0 0 8 * * *',
     script: async () => {
-      console.log('syncing data...');
-
-      console.log('sync data done.');
+      // console.log('syncing data...');
+      // console.log('sync data done.');
     },
   },
 ];
