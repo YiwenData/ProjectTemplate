@@ -1,3 +1,6 @@
 {
-  "clickhouse": true
+  "clickhouse": true,
+  "frontend":{
+    "allowBatchDelete":true
+  }
 }
